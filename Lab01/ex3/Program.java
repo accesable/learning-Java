@@ -15,13 +15,6 @@ public class Program {
         StudentUtils.sortByAvg(list);
         StudentUtils.print(list);
 
-     
-        // @TODO: sắp xếp giảm dần theo tuổi rồi in kết quả
-         
-       
-        // @TODO: tính điểm trung bình của toàn bộ danh sách rồi in kết quả
-
-       
-        // @TODO: lấy danh sách TÊN học sinh giỏi rồi in kết quả
+    
     }
 }

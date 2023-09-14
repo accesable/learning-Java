@@ -33,12 +33,7 @@ public class StudentUtils {
      * Chuyển đổi cách viết sử dụng new Comparator... sang sử dụng Lambda Expression
      */
     public static void sortByName(List<Student> list) {
-        Collections.sort(list, new Comparator<Student>() {  //  <--- thay đổi bằng lambda expression
-            @Override
-            public int compare(Student o1, Student o2) {
-                return o1.name.compareTo(o2.name);
-            }
-        });
+        Collections.sort(list, (o1,o2)-> o1.name.compareTo(o2.name));
     }
 
     /**
